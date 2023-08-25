@@ -1,0 +1,22 @@
+
+            *
+            {
+                margin:0px;
+                padding:0px;
+            }
+    
+            .menu
+            {
+                height:40px;
+                float:left;
+                width:20%;
+                text-align:center;
+            }
+            .menu p{
+                line-height:40px;
+            }
+            .menu img
+            {
+                max-width:100px;
+                height:40px;
+            }

@@ -1,0 +1,54 @@
+@keyframes moveright {
+
+    0%{
+        transform: translateY(0px);
+        
+    }
+    
+    20%{
+        transform: translateY(20px);
+        color: red;
+    }
+
+    
+   60%{
+        transform: translateY(50px);
+        color: rgb(51, 255, 0);
+        padding: 100px;
+        border-radius: 25px;
+        background-color: rgb(34, 25, 25);
+    }
+
+    80%{
+        transform: translateY(80px);
+        color: red;
+    }
+    100%{
+        color: #000;
+    }
+}
+/*
+.word{
+    font-size: 100px;
+    padding-top: 100px;
+    text-align: center;
+    animation: moveright 5s infinite ease-in-out ;
+}*/
+
+p:not(:hover){
+    background: rgb(0, 0, 0);
+    color: white;
+}
+h1{
+visibility: hidden;
+    color: black;
+    transition: 0.5s;
+
+}
+
+.container:hover .h1{
+    transition: 0.5s;
+    color: black;
+    background-color: aqua;
+    visibility:visible
+}

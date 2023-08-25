@@ -1,0 +1,38 @@
+There are five different position values:
+
+static
+relative
+fixed
+absolute
+sticky
+
+-----------------
+HTML elements are positioned static by default.
+
+Static positioned elements are not affected by the top, bottom, left, and right properties.
+
+An element with position: static; is not positioned in any special way;
+ it is always positioned according to the normal flow of the page:
+ -----------------
+An element with position: relative; is positioned relative to its normal position.
+
+Setting the top, right, bottom, and left properties of a relatively-positioned element will cause it to be adjusted 
+away from its normal position.لن يتم تعديل المحتوى الآخر ليناسب أي فجوة يتركها العنصر.
+--------------------------
+An element with position: fixed; is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled. The top, right, bottom, and left properties are used to position the element.
+
+A fixed element does not leave a gap in the page where it would normally have been located
+---------------
+position: -webkit-sticky;
+  position: sticky;
+  ستكي يقعد في الصفحة ما يرةح
+  -------------------
+  نصيحة لل
+  An element with position: absolute; is positioned relative to the nearest positioned ancestor 
+  (instead of positioned relative to the viewport, like fixed).
+
+However; if an absolute positioned element has no positioned ancestors, it uses the document body, and moves along with page scrolling.
+
+Note: Absolute positioned elements are removed from the normal flow, and can overlap elements
+لازم ما يخرج من الموقع المطالب بيه انت 
+ و الابسولت لازم يكون داخل رليتف اذا ما كان بيستخدم الصفحة ك بوزشن

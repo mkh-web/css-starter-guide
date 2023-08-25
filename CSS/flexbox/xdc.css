@@ -1,0 +1,30 @@
+.continer{
+    border: solid 5px black;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-evenly;
+    align-items: center;
+
+  /*  flex-wrap: wrap;
+    align-content: center;*/
+    gap: 5px;
+}
+
+.item{
+    padding: 50px;
+    background-color: rgb(247, 141, 3);
+    border: solid 2px black;
+}
+
+.item-1{
+   flex-grow: 1;
+   /* flex-shrink: 0;
+    flex-basis: 10px;
+
+    flex: 2;*/
+    align-self: end;
+   /* order: 1;*/
+}

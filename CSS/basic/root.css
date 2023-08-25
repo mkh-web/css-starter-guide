@@ -1,0 +1,8 @@
+:root{
+ --color-define:green;
+}       
+
+body{
+    color: var(--color-define);
+
+}

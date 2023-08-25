@@ -1,0 +1,45 @@
+body{
+    margin:110px 150px;
+    
+}
+.continer{
+  /*  position: relative;*/
+    display: grid;
+    grid-template-columns: repeat(4 , 110px);
+    grid-template-rows: repeat(3 , 110px);
+    gap: 2px;
+    border: solid 2px black;
+    height: 100%;
+    width: 100%;
+}
+
+.item{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    background-color: aqua;
+    border-radius: 5px;
+}
+/*
+.item-1{
+    background-color: greenyellow;
+    position: absolute;
+    top:50px;
+    right: ;
+    bottom: ;
+    left: ;
+}*/
+
+.item-1{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.item-5{
+    background-color: burlywood;
+    position: sticky;
+    top:50px
+}

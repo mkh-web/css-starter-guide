@@ -1,0 +1,26 @@
+Content - The content of the box, where text and images appear
+Padding - Clears an area around the content. The padding is transparent
+Border - A border that goes around the padding and content
+Margin - Clears an area outside the border. The margin is transparent
+--------------
+Important: When you set the width and height properties of an element with CSS,
+ you just set the width and height of the content area
+-----------------
+عشان تعرف الحجم الكلي لغرض ميعن لازم تسوي معادلة حسابية
+
+Here is the calculation:
+320px (width)
++ 20px (left + right padding)
++ 10px (left + right border)
++ 0px (left + right margin)
+= 350px
+The total width of an element should be calculated like this:
+
+Total element width = width + left padding + right padding + left border + right border + left margin + right margin
+
+The total height of an element should be calculated like this:
+
+Total element height = height + top padding + bottom padding + top border + bottom border + top margin + bottom margin
+
+
+https://www.youtube.com/watch?v=QmPXb-RHy5s

@@ -1,0 +1,27 @@
+
+
+h1::first-letter{
+    font-size: larger;
+    font-style: oblique;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+p::selection{
+    color: greenyellow;
+    background-color: rgb(0, 0, 0);
+}
+
+.fruit li::before{
+ content: "xd ";
+}
+
+.fruit li:hover::after{
+    content: " sss ";
+    color: brown;
+   }
+   
+   .fruit li::marker{
+    content: " uu ";
+    color: rgb(110, 104, 104);
+   }

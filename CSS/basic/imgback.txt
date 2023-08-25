@@ -1,0 +1,7 @@
+image url
+repeat: no_reoeat
+positsion center
+attachment fixed
+size cover
+----------------------------------
+خصائص وضع خلفيه للصفحة حقتك

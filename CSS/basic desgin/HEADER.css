@@ -1,0 +1,50 @@
+.s1{
+    width: 100%;
+    background: radial-gradient(ellipse at center, rgb(250, 220, 88) 0%, rgb(231, 220, 203) 100%);
+    box-shadow: 11px 4px 30px -5px rgba(0,0,0,0.4);
+}
+/*
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    display: inline-flex;
+        
+}
+
+nav ul .list{
+    padding: 50px;
+    list-style: none;
+    font-family: monospace;
+    text-transform:uppercase;
+    font-size: larger;
+}
+
+.icons{
+    padding: 200;
+}*/
+
+nav{
+    display: inline;
+    padding: 25px;
+
+}
+
+ul{
+    display:inline-block;
+}
+
+nav ul .list{
+    padding: 50px;
+    list-style: none;
+    font-family: monospace;
+    text-transform:uppercase;
+    font-size: larger;
+}
+
+.icons{
+    padding: 200;
+}
